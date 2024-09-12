@@ -1,14 +1,14 @@
-#Discord Bot: HoyoGame Code Notify
+# Discord Bot: HoyoGame Code Notify
 
 A Discord bot built with `discord.js` that allows users to redeem game codes for Genshin Impact, Honkai: Star Rail, and Zenless Zone Zero via a slash command.
 
-##Features
+## Features
 
 - Slash command `/redeemcode` that opens a modal to notify up to three game codes.
 - Supports three games: Genshin Impact, Honkai: Star Rail, and Zenless Zone Zero.
 - Automatically sends redeemed codes to a specified channel, tagging a role associated with each game.
 
-##Prerequisites
+## Prerequisites
 
 - Node.js v16.6.0 or higher
 - A Discord bot token (can be obtained from the [Discord Developer Portal](https://discord.com/developers/applications))
@@ -16,7 +16,7 @@ A Discord bot built with `discord.js` that allows users to redeem game codes for
   - `TOKEN` - Your Discord bot token
   - `CHANNEL` - The ID of the channel where the bot should send the redeemed codes
 
-##Installation
+## Installation
 
 1. Clone the repository:
 
@@ -44,14 +44,14 @@ A Discord bot built with `discord.js` that allows users to redeem game codes for
    node index.js
    ```
 
-##Usage
+## Usage
 
 1. Invite the bot to your Discord server.
 2. Use the `/redeemcode` slash command to open a modal.
 3. Fill in the game name (`genshin`, `hsr`, or `zzz`) and up to three game codes.
 4. The bot will process the codes and send them to the specified channel.
 
-##Code Overview
+## Code Overview
 
 - **Dependencies**: Uses `discord.js` for interacting with the Discord API and `dotenv` for managing environment variables.
 - **Commands**: 
@@ -61,15 +61,15 @@ A Discord bot built with `discord.js` that allows users to redeem game codes for
 - **Error Handling**:
   - The bot provides feedback for invalid game choices and handles errors if the specified channel is not found.
 
-##Contribution
+## Contribution
 
 Feel free to fork this repository and submit pull requests. If you find any bugs or have feature requests, please open an issue.
 
-##License
+## License
 
 This project is licensed under the MIT License.
 
-##Acknowledgments
+## Acknowledgments
 
 - [discord.js](https://discord.js.org/) for the excellent library for interacting with the Discord API.
 - [dotenv](https://github.com/motdotla/dotenv) for managing environment variables.
